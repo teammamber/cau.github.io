@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>食物碳排計算機</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        
+
+        <link href="css/templatemo-leadership-event.css" rel="stylesheet">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-254112043-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-254112043-1');
+        </script>
+
+
+    </head>
+    
+    <body>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                
+          
+               
+
+               
+                    <span style="color:white; font-weight:bold;">Carbon emission</span>
+         
+
+
+
+                        
+            </div>
+        </nav>
+
+        <main>
+
+            <section class="hero" id="section_1">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-5 col-12 m-auto">
+                            <div class="hero-text">
+
+                                <h1 class="text-white mb-4">食物碳排計算機</h1>
+
+                                
+
+                                <a href="#section_2" class="custom-link bi-arrow-down arrow-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-wrap">
+                    <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                        <source src= 'videos/need.mp4' type="video/mp4">
+
+                        
+                    </video>
+                </div>
+            </section>
+
+
+
+            <section class="about section-padding" id="section_2">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-10 col-12">
+                            <h2 class="mb-4">全球議題</h2>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <h3 class="mb-3">全球升溫1.5度和2度差很大！控制地球暖化才能確保家園永續</h3>
+
+                            <p>目前全球升溫攝氏1.2度，而根據聯合國政府間氣候變遷專門委員會(IPCC)指出依照目前溫室氣體排放情形，在2041年前全球升溫就可能達到地球環境快速惡化的臨界值攝氏1.5度，造成多種環境災害。聯合國估算，人為造成的溫室氣體排放量必須在2030年前減半，才有機會能減緩氣候危機。</p>
+                            
+                            
+                        </div>
+
+
+                   
+                </div>
+            </section>
+
+
+            <section class="speakers section-padding" id="section_3">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12 d-flex flex-column justify-content-center align-items-center">
+                            <div class="speakers-text-info">
+                                <h2 class="mb-4">設計緣由</h2>
+
+                                <p>聯合國建議每人每日的碳排量為5公斤，而根據「台灣民眾碳足跡認知與行為」報告顯示，台灣人每人每日的碳排量為19.6公斤，遠超過聯合國標準近4倍之多，顯見台灣的減碳意識仍有進步空間，而在這些碳排當中，光吃肉產生碳排即達5.7公斤，佔總碳排的29%。縱然近年環保意識有逐漸提升，但依然有很多民眾不知道如何正確且有效的減碳…</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="speakers-thumb">
+                                <img src="images/need2.png" class="img-fluid speakers-image" alt="">
+
+                                
+
+                                
+                            </div>
+                        </div>
+
+
+
+
+                               
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="pricing section-padding" id="section_5">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-10 col-12 text-center mx-auto mb-5">
+                            <h2>食物碳排放量計算機</h2>
+                        </div>
+                        <hr>
+
+
+
+
+油類：
+<select id="oil" >
+	<option value='30.62352 106.08'>芝麻油
+	<option value='60.82949 99.36'>福壽芝麻
+	<option value='14.76 105.96'>食用大豆油
+	<option value='20.171591 106.08'>大豆沙拉油
+    <option value='28.466666 105.96'>烤酥油
+    <option value='47.27272 106.92'>南僑酥油
+    <option value='21 99.36'>統清油炸專用油
+    <option value='69.36 106.08'>葵花油
+    <option value='23.4 105.96'>花生油
+    <option value='57.96 105.72'>黑麻油
+    <option value='58.08 107.52'>清麻油
+    <option value='8.328 106.2'>精緻牛油
+    <option value='9.42 106.8'>精緻豬油
+    <option value='22.4 108'>統清香豬油王-調合豬油
+    <input type="number" id='addoil' placeholder="請輸入數字" oninput="value=value.replace('-', '')" style=" border-radius:6px;" >匙/12g     
+</select>
+
+<br>
+
+
+
+
+    調味品：
+
+    <select  id="fla" >
+        <option value='24.21 18'>丸莊黑豆螺光蔭油膏
+        <option value='12.12 17.52'>蔭油膏
+        <option value='0.8256 0'>精鹽（食用鹽）
+        <option value='18.84 25.8'>蔭豆豉
+        <option value='13.68 24.72'>味噌
+        <option value='13.68 60.6'>咖哩塊
+        <option value='18.96 79.8'>素沙茶醬
+        <option value='23.52 78.96'>芝麻醬
+        <option value='26.64 13.56'>醬油(黑豆釀造)
+        <option value='20.16 9.24'>醬油(黑豆釀造)
+        <option value='36.84 87'>瑪琪琳
+        <option value='3.84 34.8'>糖蜜
+        <option value='4.44 47.76'>蔗糖
+        <option value='5.04 2.04'>食用醋(糯米醋)
+        <option value='155.52 13.32'>番茄醬
+        <option value='0.3552 48'>精製特砂
+        <option value='0.18564 48'>精製細砂
+        <option value='0.17604 47.76'>精製二砂
+        <option value='0.08436 36.72'>特製液糖
+        <input type="number" id='fla2' placeholder="請輸入數字" oninput="value=value.replace('-', '')" style=" border-radius:6px;">匙/12g
+                        
+    </select>
+    
+   
+    
+<br>
+
+        主食類：
+        <select  id="food">
+        <option value='200 348'>溫度米(台梗16號)
+        <option value='200 351'>良質米(高雄139號)
+        <option value='170 354'>芋香米(台梗4號)
+        <option value='159 338'>有機越光米
+        <option value='57 340'>炊粉
+        <option value='1210 349.3'>營養麵條
+        <option value='206.666 345'>麵線
+        <option value='248.333 290'>拉麵
+        <option value='188.333 281'>意麵
+        <option value='188.333 265'>刀削麵
+        <option value='308.333 126'>烏龍麵
+        <option value='308.333 360.5'>原味關廟麵
+        <input type="number" id='food2' placeholder="請輸入數字" oninput="value=value.replace('-', '')" style=" border-radius:6px;">匙/12g
+
+        </select>
+        
+        
+<br>
+
+肉類選項：<select  id="meat">
+        <option disabled>請選擇你吃的肉類</option>
+        <option value='3666.666 230'>究好豬-排骨丁</option>
+        <option value='3600 392'>究好豬-霜降肉</option>
+        <option value='3750 368'>究好豬-帶皮五花肉條15mm</option>
+        <option value='3750 182'>究好豬-松板肉</option>
+        <option value='3750 223'>究好豬-低脂絞肉</option>
+        <option value='3750 252'>究好豬-低脂肉絲</option>
+        <option value='3750 207'>究好豬-梅花薄片</option>
+        <option value='3750 207'>究好豬-梅花厚片</option>
+        <option value='3750 360'>究好豬-五花厚片</option>
+        <option value='3750 360'>究好豬-五花薄片</option>
+        <option value='3666.666 227'>究好豬-龍骨</option>
+        <option value='3666.666 287'>究好豬-里肌小排丁</option>
+        <option value='3750 216'>究好豬-胛心薄片</option>
+        <option value='1200 341'>安心豚梅花肉片</option>
+        <option value='1200 187'>安心豚里肌肉片</option>
+        <option value='1200 187'>安心豚里肌烤肉片</option>
+        <option value='1200 341'>安心豚梅花烤肉片</option>
+        <option value='1200 360'>安心豚五花烤肉片</option>
+        <option value='1133.3333 249'>安心豚小排肉</option>
+        <option value='1200 187'>安心豚里肌火鍋肉片</option>
+        <option value='1120 205'>安心豚低脂絞肉</option>
+        <option value='1133.333 227'>安心豚龍骨</option>
+        <option value='1200 374'>安心豚白玉五花肉片</option>
+        <option value='1120 114'>安心豚特細後腿肉絲</option>
+        <option value='1133.333 151'>安心豚腱子肉</option>
+        <option value='1200 393'>安心豚五花肉</option>
+        <option value='1133.333 341'>安心豚梅花肉排</option>
+        <option value='1133.333 187'> 安心豚里肌肉排</option>
+        <option value='1133.333 123'>後腿肉絲</option>
+        <option value='800 207'>梅花肉片</option>
+        <option value='750 360'>豬五花肉</option>
+        <option value='750 146'>豬腱肉</option>
+        <option value='750 287'>豬小排肉</option>
+        <option value='800 241'>里肌火鍋肉片</option>
+        <option value='750 120'>豬腰內肉</option>
+        <option value='800 212'>里肌豬排</option>
+        <option value='800 137'>豬肝</option>
+        <option value='750 227'>龍骨</option>
+        <option value='833.333 332'>大骨</option>
+        <option value=777.777>豬腳</option>
+        <option value='750 152'>豬肚</option>
+        <option value='746.666 128'>豬心</option>
+        <option value='916.666 191'>豬中排肉</option>
+        <option value='800 252'>前腿肉絲</option>
+        <option value='800 242'>豬肉片</option>
+        <option value='800 212'>豬絞肉</option>
+        <option value='750 284'>豬雪花肉</option>
+        <option value='800 430'>五花火鍋肉片</option>
+        <option value='800 214'>帶骨里肌豬排</option>
+        <option value='800 117'>豬肉丁</option>
+        <option value='1133.333 205'>低脂絞肉</option>
+        <input type="number" id='meat2' placeholder="請輸入數字" oninput="value=value.replace('-', '')" style=" border-radius:6px;">份/100g
+    </select>
+    <br>
+    海鮮選項：<select  id="sea">
+        <option disabled>請選擇你吃的海鮮</option>
+        <option value='109.625 54'>去殼牡蠣</option>
+        <option value='447.642 110'>吳郭魚冷凍魚片</option>
+        <option value=707.267>冷凍石斑魚條</option>
+        <option value='583.488 90'>石斑魚活體 </option>
+        <option value='487 98'>七星鱸魚</option>
+        <option value='937 103'>冷凍白蝦</option>
+        <option value='487 37'>文蛤</option>
+        <option value='733.333 204.5'>野菜干貝燒</option>
+      
+        <input type="number" id='sea2' placeholder="請輸入數字" oninput="value=value.replace('-', '')" style=" border-radius:6px;">份/100g
+    </select>
+    <br>
+
+    蛋類：
+    <select id="egg">
+        <option value='92.5 76.45'>白雞蛋
+        <option value='92.5 72.6'>紅雞蛋
+        <option value='240 72'>茶葉蛋
+        <option value='110 74.8'>石安牧場動福蛋
+        <option value='170 84'>勤億是好機能蛋
+        <option value='150 87'>木崗高品質雞蛋冷藏紅殼蛋
+        <option value='170 79'>木崗高品質雞蛋冷藏白殼蛋
+        <option value='170 72.9'>幸福牧場幸福好蛋
+
+        <input type="number" id='egg2' placeholder="請輸入數字" oninput="value=value.replace('-', '')" style= border-radius:6px;">顆
+        
+                
+               
+      
+    </select>
+    <br>
+        蔬果類：
+        <select id="vege">
+            <option value='90 112'>扁豆
+            <option value='140 19'>番茄
+            <option value='100 107'>玉米
+            <option value='100 129'>木薯
+            <option value='88 364'>鷹嘴豆
+            <option value='90 123'>豌豆
+            <option value='40 48' >根莖類蔬菜
+            <option value='30 600'>堅果
+            <option value='51 20'>高麗菜
+            <option value='51 23'>花椰菜
+            <option value='50 42'>洋蔥 
+            <option value='50 18'>韭菜
+            <option value='11 66'>馬鈴薯
+            <option value='70 85'>香蕉
+            <option value='40 51'>蘋果
+            <option value='30 45'>柑橘類水果
+            <option value='179 35'>水梨
+            <option value='55.8 28'>蔥
+            <input type="number" id='vege2' placeholder="請輸入數字" oninput="value=value.replace('-', '')" style= border-radius:6px;">份/100g
+            
+                    
+                   
+          
+        </select>
+        <br>
+
+        豆奶類：
+        <select id="milk">
+            <option value='248 63'>鮮乳
+            <option value='84.444 58.5'>統一陽光黃金豆豆漿
+            <option value='160 51'>豆腐
+            <option value='255.052 60'>高大鮮乳
+            <option value='195 57.76'>優酪乳
+            <option value='331 59'>麥芽調味乳 
+            <input type="number" id='milk2' placeholder="請輸入數字" oninput="value=value.replace('-', '')" style= border-radius:6px;">份/100g
+            
+                    
+                   
+          
+        </select>
+    
+
+        
+    
+    
+
+<hr >
+總碳排放為<p id="demo"> </p> 
+熱量為<p id="demo2"> </p> 
+<button onclick="myFunction3()">點我來計算食物碳排放與熱量</button>
+
+
+<hr size=10 style="color: white;">
+                      
+
+                              
+
+ 
+
+<section class="contact section-padding" id="section_7">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-8 col-12 mx-auto">
+                <form class="custom-form contact-form bg-white shadow-lg" action="#" method="post" role="form">
+                    <h2>企業合作</h2>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-12">                                    
+                            <input type="text" name="name" id="name" class="form-control" placeholder="企業名稱" required="">
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-12">         
+                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="電子郵件" required="">
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-12">                                    
+                            <input type="text" name="subject" id="subject" class="form-control" placeholder="聯絡電話">
+                        </div>
+
+                        <div class="col-12">
+                            <textarea class="form-control" rows="5" id="message" name="message" placeholder="留點什麼吧"></textarea>
+
+                            <button type="submit" class="form-control">Submit</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        </main>
+
+        
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+        <script>
+            function myFunction3() {
+            
+            //調味料
+            
+            var flanum = document.getElementById('fla').value;
+            var oooo = document.getElementById("fla2").value;            
+            var flanum2=Number(flanum.split(' ')[0]);
+            var flanum3=Number(flanum.split(' ')[1]);
+            var totalfla = flanum2 * oooo; //調味料總炭數
+            var totalflacar= oooo * flanum3; //調味料熱量
+            
+            //調味料結束
+            
+            //油
+            
+            var oil2 = document.getElementById("oil").value;
+            var oilnum = document.getElementById('addoil').value;
+            var oil3=Number(oil2.split(' ')[0]);
+            var oil4=Number(oil2.split(' ')[1]);
+            var totaloil = oil3 * oilnum; //油總炭數
+            var totaloilcar=oil4 * oilnum //油熱量
+            
+            
+            //油結束
+            
+            //肉類
+            
+            var meatnum = document.getElementById('meat').value;
+            var meatall = document.getElementById("meat2").value;
+            var meatnum2= Number(meatnum.split(' ')[0]);
+            var meatnum3= Number(meatnum.split(' ')[1]);
+            var totalmeat = meatnum2 * meatall; //肉類總炭數
+            var totalmeatcar = meatall * meatnum3 //肉熱量
+            //肉類結束
+            
+            //主食
+            
+            var foodnum = document.getElementById('food').value;
+            var foodall = document.getElementById("food2").value;
+            var foodnum2= Number(foodnum.split(' ')[0]);
+            var foodnum3= Number(foodnum.split(' ')[1]);
+            var totalfood = foodnum2 * foodall; //主食總炭數
+            var totalfoodcar = foodnum3 * foodall; //主食總炭數
+            
+            //主食結束
+            
+            //海鮮
+            
+            var seanum = document.getElementById('sea').value;
+            var seaall = document.getElementById("sea2").value;
+            var seanum2= Number(seanum.split(' ')[0]);
+            var seanum3= Number(seanum.split(' ')[1]);
+            var totalsea = seanum2 * seaall; //海鮮總炭數
+            var totalseacar = seanum3 * seaall; //海鮮總炭數
+            
+            //海鮮結束
+            
+            //蔬果
+            
+            var vegenum = document.getElementById('vege').value;
+            var vegeall = document.getElementById("vege2").value;
+            var vegenum2= Number(vegenum.split(' ')[0]);
+            var vegenum3= Number(vegenum.split(' ')[1]);
+            var totalvege = vegenum2 * vegeall; //蔬果總炭數
+            var totalvegecar = vegenum3 * vegeall; //蔬果總炭數
+            
+            //蔬果結束
+
+            var milknum = document.getElementById('milk').value;
+            var milkall = document.getElementById("milk2").value;
+            var milknum2= Number(milknum.split(' ')[0]);
+            var milknum3= Number(milknum.split(' ')[1]);
+            var totalmilk = milknum2 * milkall; //牛奶總炭數
+            var totalmilkcar = milknum3 * milkall; //牛奶總炭數
+
+            var eggnum = document.getElementById('egg').value;
+            var eggall = document.getElementById("egg2").value;
+            var eggnum2=Number(eggnum.split(' ')[0]);
+            var eggnum3=Number(eggnum.split(' ')[1]);
+            var totalegg = eggnum2 * eggall; //蛋總炭數
+            var totaleggcar = eggnum3 * eggall; //蛋總炭數
+            
+
+
+            var ttt=  totaloil + totalfla + totalmeat + totaloil + totalsea +totalvege +totalfood +totalegg +totalmilk;
+            var ttt2=  totaloilcar + totalflacar + totalmeatcar + totaloilcar + totalseacar +totalvegecar +totalfoodcar +totaleggcar +totalmilkcar;
+ 
+                document.getElementById('demo').textContent = Math.round(ttt) +' g';
+                document.getElementById('demo2').textContent = Math.round(ttt2) +' kcal';
+            }
+            </script>
+            
+    </body>
+</html>
